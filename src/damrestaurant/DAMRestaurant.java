@@ -120,7 +120,8 @@ public class DAMRestaurant {
             restaurantDAO.desconectar();
             System.out.println("Conexión cerrada.");
             System.out.println("************************************************************");
-
+            System.out.println("Fin del programa.");
+            
         } catch (SQLException ex) {
             System.out.println("Error SQL: " + ex.getMessage());
         }
